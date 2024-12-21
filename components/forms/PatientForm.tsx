@@ -69,6 +69,14 @@ const PatientForm = () => {
           iconAlt="email"
         />
 
+        <CustomFormField
+          fieldType={FormFieldType.PHONE_INPUT}
+          control={form.control}
+          name="phone"
+          label="Phone number"
+          placeholder="(+94) 76 771 22345"
+        />
+
         <Button type="submit">Submit</Button>
       </form>
     </Form>
